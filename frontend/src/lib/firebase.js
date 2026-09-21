@@ -6,7 +6,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 
 const firebaseConfig = {
-  apiKey: "YOUR_FIREBASE_API_KEY",
+  apiKey: "AIzaSyDPyzyJkFecgqnQJDR-cdN4P04pL7gedmg",
   authDomain: "aichatbot-b581b.firebaseapp.com",
   projectId: "aichatbot-b581b",
   storageBucket: "aichatbot-b581b.firebasestorage.app",
