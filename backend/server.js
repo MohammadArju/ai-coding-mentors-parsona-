@@ -28,6 +28,9 @@ app.use("/api", chatRoutes);
 app.use("/api/user", userRoutes);
 
 app.use(express.static(path.join(_dirname, "/frontend/dist")));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(_dirname, "frontend/dist", "index.html"));
+});
 
 await connectDB();
 
