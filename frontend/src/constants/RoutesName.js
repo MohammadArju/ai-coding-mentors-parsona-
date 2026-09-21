@@ -9,7 +9,7 @@
 // constants/api.js
 
 export const API = {
-  BASE_URL: "http://localhost:3000",
+  BASE_URL: "https://ai-coding-mentors-parsona.onrender.com",
 
   USER: {
     REGISTER: "/api/user/register",
