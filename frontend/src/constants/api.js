@@ -3,6 +3,6 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://ai-coding-mentors-parsona.onrender.com",
   withCredentials: true,
 });
